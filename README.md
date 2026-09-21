@@ -37,27 +37,27 @@ The notebooks require Python 3.12.13 and the Python packages at the versions spe
 --- 
 ## Data sources and references
 
-Facility inventory and building evidence:
+**Facility inventory and building evidence:**
 - OpenStreetMap contributors. *OpenStreetMap* [Data set]. Retrieved from [https://www.openstreetmap.org/](https://www.openstreetmap.org/)
 - Overture Maps Foundation. (2026). *Overture Maps buildings* (Release 2026-04-15.0) [Data set]. [https://docs.overturemaps.org/blog/2026/04/15/release-notes/](https://docs.overturemaps.org/blog/2026/04/15/release-notes/)
 
-Operator location information:
+**Operator location information:**
 - Amazon Web Services. *AWS Global infrastructure*. Retrieved from [https://aws.amazon.com/about-aws/global-infrastructure/](https://aws.amazon.com/about-aws/global-infrastructure/)
 - Google. *Google Data Centers*. Retrieved from [https://datacenters.google/locations/#data-center-list](https://datacenters.google/locations/#data-center-list)
-- Microsoft. *Microsoft Datacenters*. Retrieved from [https://datacenters.microsoft.com/globe/explore/?view=table](https://datacenters.microsoft.com/globe/explore/?view=table)
+- Microsoft. *Microsoft Datacenters*. Retrieved from [https://datacenters.microsoft.com/globe/explore/](https://datacenters.microsoft.com/globe/explore/)
 
-Renewable availability:
+**Renewable availability:**
 - Renewables.ninja. *Renewables.ninja - solar PV and wind profile service* [Data set]. Retrieved from [https://www.renewables.ninja/](https://www.renewables.ninja/)
 - Pfenninger, S., & Staffell, I. (2016). Long-term patterns of European PV output using 30 years of validated hourly reanalysis and satellite data. *Energy, 114*, 1251–1265. [https://doi.org/10.1016/j.energy.2016.08.060](https://doi.org/10.1016/j.energy.2016.08.060)
 - Staffell, I., & Pfenninger, S. (2016). Using bias-corrected reanalysis to simulate current and future wind power output. *Energy, 114*, 1224–1239. [https://doi.org/10.1016/j.energy.2016.08.068](https://doi.org/10.1016/j.energy.2016.08.068)
 
-Electricity demand profiles:
+**Electricity demand profiles:**
 - UK Power Networks. *Data centre demand profiles* [Data set]. Retrieved from [https://ukpowernetworks.opendatasoft.com/explore/dataset/ukpn-data-centre-demand-profiles/information/](https://ukpowernetworks.opendatasoft.com/explore/dataset/ukpn-data-centre-demand-profiles/information/)
 
-Future demand scenarios:
+**Future demand scenarios:**
 - International Energy Agency. (2025). *Energy and AI*. [https://www.iea.org/reports/energy-and-ai](https://www.iea.org/reports/energy-and-ai)
 
-Geographical boundaries and maps:
+**Geographical boundaries and maps:**
 - Natural Earth. (2022). *Admin 0 – Countries* (1:110 million; layer version 5.1.1, supplied in release 5.1.2) [Data set]. [https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/](https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/)
 
 ---
