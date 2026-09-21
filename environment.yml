@@ -1,0 +1,27 @@
+name: datacentre-demand-flexibility
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.13
+  - pip
+  - jupyterlab=4.4.5
+  - notebook=7.4.5
+  - ipykernel=7.3.0
+  - pip:
+      - pandas==2.2.3
+      - numpy==2.3.5
+      - scipy==1.18.0
+      - matplotlib==3.11.1
+      - requests==2.34.2
+      - tqdm==4.70.0
+      - geopandas==1.1.4
+      - shapely==2.1.2
+      - pyproj==3.7.2
+      - pycountry==26.2.16
+      - reverse-geocoder==1.5.1
+      - timezonefinder==8.2.5
+      - pytz==2026.3.post1
+      - pyarrow==25.0.0
+      - overturemaps==1.0.1
+      - nbclient==0.11.0
+      - nbformat==5.11.0
