@@ -1,0 +1,17 @@
+{
+  "allocation_methods": [
+    "greedy",
+    "optimised_lp"
+  ],
+  "flexibility_scenarios_sha256": "af5202b76dc2c8b31c4efe8c2781ad8284d1fe0510eaed6b3b523d42318d468d",
+  "highs_threads_per_worker": 1,
+  "hourly_input_sha256": "2c51019794d300a8bc8e08d870cb21c23508bd07f68266cb169110eb89b73571",
+  "implementation_id": "local-clock-dual-allocator-v2-batched",
+  "lexicographic_absolute_tolerance": 1e-06,
+  "lexicographic_relative_tolerance": 1e-10,
+  "optimisation_batch_edge_limit": 50000,
+  "optimisation_max_workers": 4,
+  "scipy_version": "1.18.0",
+  "shift_mode": "daily_spatiotemporal",
+  "utilisation_scenarios_sha256": "4b2d2237fcfdf662e00f4398763e730232a60d0057fdf9fbb6d5389a86d81963"
+}
