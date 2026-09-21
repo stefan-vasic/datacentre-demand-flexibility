@@ -1,0 +1,13 @@
+{
+  "allocation_method": "optimised_lp",
+  "candidate_hours": 9,
+  "detail_row_count": 2196040,
+  "detail_sha256": "04503bf96fd0f92b9b96f4dc1f0d20e12bb1e1cba0296b516b497899b204cb8d",
+  "detail_shifted_mwh": 24039323.18553505,
+  "eligibility_rule": "frozen-daily-ranks-v1",
+  "flexibility_scenario_id": "flex_25",
+  "implementation_id": "local-clock-dual-allocator-v2-batched",
+  "shift_mode": "same_hour_geographic",
+  "solver_status_sha256": "c331f077ebcc20e941e46be746770f0dd16e41be7200cadd17e92a81ab7d4aa9",
+  "utilisation_scenario_id": "util_85"
+}

@@ -1,0 +1,11 @@
+{
+  "allocation_method": "optimised_lp",
+  "detail_row_count": 1335704,
+  "detail_sha256": "b82f2ea05b4cdfb92e1929a33db39962a0d45c9c07b201220275fbd514873205",
+  "detail_shifted_mwh": 12144612.569985967,
+  "flexibility_scenario_id": "flex_20",
+  "implementation_id": "local-clock-dual-allocator-v2-batched",
+  "shift_mode": "same_hour_geographic",
+  "solver_status_sha256": "b4dab936985ad57c14e85a79f646b97361bbd9185a39fbecfd4e1be874fb889a",
+  "utilisation_scenario_id": "util_85"
+}

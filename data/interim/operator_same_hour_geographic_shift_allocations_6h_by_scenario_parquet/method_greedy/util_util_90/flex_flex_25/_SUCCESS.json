@@ -1,0 +1,10 @@
+{
+  "allocation_method": "greedy",
+  "detail_row_count": 1023009,
+  "detail_sha256": "7b2f4477f8cd00df668b4491a508c92b6fa98631608d2a12d10eaec4eefc76e8",
+  "detail_shifted_mwh": 5963643.929518232,
+  "flexibility_scenario_id": "flex_25",
+  "implementation_id": "local-clock-dual-allocator-v2-batched",
+  "shift_mode": "same_hour_geographic",
+  "utilisation_scenario_id": "util_90"
+}
