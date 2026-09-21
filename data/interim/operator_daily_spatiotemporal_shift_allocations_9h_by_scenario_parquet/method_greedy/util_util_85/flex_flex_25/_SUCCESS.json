@@ -1,0 +1,12 @@
+{
+  "allocation_method": "greedy",
+  "candidate_hours": 9,
+  "detail_row_count": 2581154,
+  "detail_sha256": "098d516167139c5bce241a5aceddee21f0f02082d50431ba506dc26b36b4c002",
+  "detail_shifted_mwh": 35055266.41446219,
+  "eligibility_rule": "frozen-daily-ranks-v1",
+  "flexibility_scenario_id": "flex_25",
+  "implementation_id": "local-clock-dual-allocator-v2-batched",
+  "shift_mode": "daily_spatiotemporal",
+  "utilisation_scenario_id": "util_85"
+}
