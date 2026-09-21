@@ -1,0 +1,4 @@
+flexibility_scenario_id,flexible_workload_share,scenario_label,is_central
+flex_20,0.2,Conservative 20% flexible workload,False
+flex_25,0.25,Central 25% flexible workload,True
+flex_30,0.3,High 30% flexible workload,False

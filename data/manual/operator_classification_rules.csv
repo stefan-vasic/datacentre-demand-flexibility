@@ -1,0 +1,14 @@
+priority,rule_type,operator_group,operator_standardized,pattern,hyperscaler_category,match_confidence,active
+1,hyperscaler,Amazon,Amazon Web Services,\bamazon\b,cloud_provider,high,True
+2,hyperscaler,Amazon,Amazon Web Services,\baws\b,cloud_provider,high,True
+3,hyperscaler,Amazon,Amazon Web Services,amazon web services,cloud_provider,high,True
+4,hyperscaler,Amazon,Amazon Web Services,\bvadata\b,cloud_provider,high,True
+5,hyperscaler,Amazon,Amazon Web Services,a100 row,cloud_provider,high,True
+10,hyperscaler,Google,Google,\bgoogle\b,cloud_provider,high,True
+11,hyperscaler,Google,Google,\balphabet\b,cloud_provider,high,True
+12,hyperscaler,Google,Google,google llc,cloud_provider,high,True
+13,hyperscaler,Google,Google,google ireland,cloud_provider,high,True
+20,hyperscaler,Microsoft,Microsoft,\bmicrosoft\b,cloud_provider,high,True
+21,hyperscaler,Microsoft,Microsoft,\bazure\b,cloud_provider,high,True
+22,hyperscaler,Microsoft,Microsoft,microsoft corporation,cloud_provider,high,True
+23,hyperscaler,Microsoft,Microsoft,microsoft ireland,cloud_provider,high,True

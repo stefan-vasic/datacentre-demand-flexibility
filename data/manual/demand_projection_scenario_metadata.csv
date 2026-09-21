@@ -1,0 +1,7 @@
+demand_scenario_id,demand_scenario_label,iea_scenario_name,target_year,target_iea_hyperscale_capacity_gw,iea_baseline_hyperscale_2024_gw,is_central_demand_scenario
+conservative,Conservative demand growth,Headwinds,2030,62.0,36.0,False
+conservative,Conservative demand growth,Headwinds,2035,64.0,36.0,False
+moderate,Moderate demand growth,Base,2030,85.0,36.0,True
+moderate,Moderate demand growth,Base,2035,103.0,36.0,True
+accelerated,Accelerated demand growth,Lift-Off,2030,108.0,36.0,False
+accelerated,Accelerated demand growth,Lift-Off,2035,139.0,36.0,False

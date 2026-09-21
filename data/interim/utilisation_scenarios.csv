@@ -1,0 +1,4 @@
+utilisation_scenario_id,base_utilisation,scenario_label,is_central
+util_80,0.8,Low 80% baseline utilisation,False
+util_85,0.85,Central 85% baseline utilisation,True
+util_90,0.9,High 90% baseline utilisation,False

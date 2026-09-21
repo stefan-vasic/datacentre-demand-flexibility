@@ -1,0 +1,41 @@
+country_code_alpha2,world_region,sub_region
+US,North America,Northern America
+CA,North America,Northern America
+MX,North America,Central America
+BR,Latin America,South America
+CL,Latin America,South America
+CR,Latin America,Central America
+PR,Latin America,Caribbean
+DO,Latin America,Caribbean
+TT,Latin America,Caribbean
+GB,Europe,Northern Europe
+IE,Europe,Northern Europe
+DE,Europe,Western Europe
+NL,Europe,Western Europe
+FR,Europe,Western Europe
+BE,Europe,Western Europe
+ES,Europe,Southern Europe
+IT,Europe,Southern Europe
+SE,Europe,Northern Europe
+FI,Europe,Northern Europe
+NO,Europe,Northern Europe
+DK,Europe,Northern Europe
+PL,Europe,Eastern Europe
+CH,Europe,Western Europe
+AT,Europe,Western Europe
+AU,Asia Pacific,Australia and New Zealand
+NZ,Asia Pacific,Australia and New Zealand
+JP,Asia Pacific,Eastern Asia
+KR,Asia Pacific,Eastern Asia
+SG,Asia Pacific,South-eastern Asia
+IN,Asia Pacific,Southern Asia
+TW,Asia Pacific,Eastern Asia
+HK,Asia Pacific,Eastern Asia
+MY,Asia Pacific,South-eastern Asia
+CN,Asia Pacific,Eastern Asia
+LB,Middle East and Africa,Western Asia
+BH,Middle East and Africa,Western Asia
+AE,Middle East and Africa,Western Asia
+SA,Middle East and Africa,Western Asia
+ZA,Middle East and Africa,Southern Africa
+IL,Middle East and Africa,Western Asia

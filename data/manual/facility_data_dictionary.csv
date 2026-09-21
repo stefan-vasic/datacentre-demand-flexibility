@@ -1,0 +1,36 @@
+field,description
+facility_id,"Unique identifier generated for each final facility, in the format COUNTRYCODE-OPERATOR-NUMBER."
+facility_name,Name of the facility.
+operator_group,"Operator of the facility: Amazon, Google or Microsoft."
+latitude,"Representative latitude of the facility, in decimal degrees (WGS84)."
+longitude,"Representative longitude of the facility, in decimal degrees (WGS84)."
+country,Country where the facility is located.
+country_code,"Three-letter country code where the facility is located."
+world_region,Broad region where the facility is located.
+sub_region,Sub-region where the facility is located.
+timezone,"Local timezone of the facility."
+utc_offset,"Difference from UTC in hours."
+campus_group_id,Identifier for a group of nearby facilities belonging to the same operator.
+campus_group_size,"Number of records in the campus group."
+capacity_record_role,"Role of the record in capacity estimation, such as a facility or a site boundary."
+site_area_m2,"Area of the site boundary, in m²."
+building_footprint_area_m2,"Area used as the building footprint to estimate capacity, in m²."
+height_m,"Building height used to estimate the number of floors, in metres."
+height_source,"Source of the height or floor information, such as OpenStreetMap or Overture Maps."
+gross_floor_area_m2,Estimated total floor area in m²: footprint area multiplied by the number of floors.
+floors_assumed,Number of floors used to estimate total floor area.
+floor_count_method,Method used to determine the number of floors.
+floor_count_confidence,Confidence category for the estimated number of floors.
+footprint_method,Method used to determine the building footprint area.
+footprint_confidence,Confidence category for the building footprint estimate.
+capacity_mw,"Estimated total facility power in MW, including IT equipment and supporting infrastructure."
+it_load_mw,"Estimated power used by IT equipment, in MW."
+capacity_estimation_method,Method used to estimate facility power.
+capacity_confidence,Confidence category for the facility power estimate.
+assumed_pue,"Assumed Power Usage Effectiveness (PUE), the ratio of total facility power to IT power."
+status,"Operating status of the facility."
+source_type,"Type of source used for the record."
+source_ids,"Identifiers of the source records."
+osm_id,"Identifier of the original OpenStreetMap object, used together with osm_type."
+osm_type,"OpenStreetMap object type: node, way or relation."
+notes,"Additional information about the record, including exceptions or missing evidence."
