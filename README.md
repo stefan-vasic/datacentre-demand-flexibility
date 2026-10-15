@@ -1,22 +1,18 @@
 # Geographical Flexibility of Hyperscale Data-Centre Electricity Demand
-
 This project is part of the master's thesis “Can AI data centres solve the energy flexibility problem?” and it provides the computational workflow supporting the analysis.
-
---- 
+ 
 ## Overview
-
 The workflow builds a geographically referenced inventory of Amazon, Google and Microsoft data centres, estimates their capacity and combines these estimates with hourly renewable-availability and load profiles. It then models how flexible workloads could be shifted between locations operated by the same provider and explores future demand scenarios.
 
-The 16 Jupyter notebooks provide a transparent basis for assessing the technical potential of geographical workload shifting to align data-centre demand with renewable availability. Comparisons across workload assumptions, allocation methods and future demand scenarios help identify the conditions and constraints that influence this potential. Capacity estimates and renewable availability are modelling proxies, rather than measured facility demand or generation.
+The 16 Jupyter notebooks provide a transparent basis for assessing the technical potential of geographical workload shifting to align data-centre demand with renewable availability. Comparisons across workload assumptions, allocation methods and future demand scenarios help identify the conditions and constraints that influence this potential. Capacity estimates and renewable availability are modelling proxies, rather than measured facility demand or generation. 
 
---- 
+## Thesis presentation
+The [presentation (PDF)](docs/presentation.pdf) explains how the facility database and optimisation model were built, presents the main findings and discusses their implications for data-centre operators as well as the model’s limitations.
+
 ## Setup
+The notebooks require Python 3.12.13 and the Python packages at the versions specified in [requirements.txt](requirements.txt). These dependencies must be satisfied in the Python environment used to execute the notebooks. 
 
-The notebooks require Python 3.12.13 and the Python packages at the versions specified in [requirements.txt](requirements.txt). These dependencies must be satisfied in the Python environment used to execute the notebooks.
-
---- 
 ## Notebook overview
-
 - [01 Acquire OSM source data](notebooks/01_acquire_osm_source_data.ipynb): Loads or acquires OpenStreetMap data-centre records and nearby building footprints, preserving source identifiers and geometry.
 - [02 Prepare hyperscaler candidates](notebooks/02_prepare_hyperscaler_candidates.ipynb): Cleans source records and identifies Amazon, Google and Microsoft candidates using the supplied operator rules.
 - [03 Enrich geography and group campuses](notebooks/03_enrich_geography_and_group_campuses.ipynb): Adds countries, regions and time zones, removes exact source duplicates and groups nearby facilities belonging to the same operator into campuses.
@@ -32,11 +28,9 @@ The notebooks require Python 3.12.13 and the Python packages at the versions spe
 - [13 Project future demand and flexibility](notebooks/13_project_future_demand_and_flexibility.ipynb): Applies IEA-based 2030 and 2035 demand scenarios to scale the validated workload results while retaining the represented spatial network.
 - [14 Visualise facilities and campuses](notebooks/14_visualize_facilities_and_campuses.ipynb): Maps the geographical distribution of facilities and campuses by provider.
 - [15 Visualise workload flexibility](notebooks/15_visualize_workload_flexibility_results.ipynb): Compares shifting potential, allocation methods, workload assumptions, geographical flows and historical weather variation.
-- [16 Visualise projections](notebooks/16_visualize_projection_results.ipynb): Presents projected shifting potential, workload sensitivity and regional flows across the future demand scenarios.
+- [16 Visualise projections](notebooks/16_visualize_projection_results.ipynb): Presents projected shifting potential, workload sensitivity and regional flows across the future demand scenarios. 
 
---- 
 ## Data sources and references
-
 **Facility inventory and building evidence:**
 - OpenStreetMap contributors. *OpenStreetMap* [Data set]. Retrieved from [https://www.openstreetmap.org/](https://www.openstreetmap.org/)
 - Overture Maps Foundation. (2026). *Overture Maps buildings* (Release 2026-04-15.0) [Data set]. [https://docs.overturemaps.org/blog/2026/04/15/release-notes/](https://docs.overturemaps.org/blog/2026/04/15/release-notes/)
@@ -60,21 +54,15 @@ The notebooks require Python 3.12.13 and the Python packages at the versions spe
 **Geographical boundaries and maps:**
 - Natural Earth. (2022). *Admin 0 – Countries* (1:110 million; layer version 5.1.1, supplied in release 5.1.2) [Data set]. [https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/](https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/)
 
----
 ## Source attribution
-
 - © OpenStreetMap contributors; OSM data are available under the [Open Database Licence (ODbL)](https://opendatacommons.org/licenses/odbl/1-0/). 
 - Building evidence also uses Overture Maps Foundation data and the contributors listed in its [attribution and licensing documentation](https://docs.overturemaps.org/attribution/#buildings).  
 - Maps are made with Natural Earth, whose map data are [public domain](https://www.naturalearthdata.com/about/terms-of-use/).  
 - Renewables.ninja profiles are provided under [CC BY-NC 4.0](https://www.renewables.ninja/about). 
-- IEA-based projections are derived from *Energy and AI*, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Stefan Vasic is responsible for this derived analysis; it is not endorsed by the IEA or its member countries. See the [IEA attribution terms](https://www.iea.org/terms/creative-commons-cc-licenses).
+- IEA-based projections are derived from *Energy and AI*, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Stefan Vasic is responsible for this derived analysis; it is not endorsed by the IEA or its member countries. See the [IEA attribution terms](https://www.iea.org/terms/creative-commons-cc-licenses). 
 
---- 
 ## Educational use and attribution
+The notebook code and documentation may be used, copied and adapted for non-commercial teaching, study and academic research, provided that Stefan Vasic is credited. Other uses require the author's permission. This is a custom educational-use notice. Third-party datasets and software remain subject to their respective licences and source terms. 
 
-The notebook code and documentation may be used, copied and adapted for non-commercial teaching, study and academic research, provided that Stefan Vasic is credited. Other uses require the author's permission. This is a custom educational-use notice. Third-party datasets and software remain subject to their respective licences and source terms.
-
---- 
 ## Author
-
 Stefan Vasic
